@@ -1,4 +1,5 @@
 const name = "harish"
+console.log("mera naam hai ${name}");
 console.log(name[0])
 console.log(name.charAt(2));
 console.log(name.indexOf('r'));
@@ -17,5 +18,8 @@ console.log(newString2.trim());
 const url="https:harish.com/rajkumarpandu.com"
 console.log(url.replace('pandu', ''))
 console.log(url.includes('harish'));
-console.log(url.includes('rawat'))
+console.log(url.includes('rawat'));
+console.log(name.split('-'));
+
+
 
